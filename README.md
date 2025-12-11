@@ -8,14 +8,14 @@ A simple implementation of a Word2Vec model (Skip-Gram with Negative Sampling) b
 * **Analysis:** Calculates **Cosine Similarity** to find nearest semantic neighbors.
 * **Visualization:** Reduces dimensions using PCA to plot word relationships in 2D.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Python 3.x**
 * **PyTorch** (Model training)
 * **NLTK & BeautifulSoup** (Text preprocessing)
 * **Wikipedia-API** (Data collection)
 * **Matplotlib** (Visualization)
 
-## 📦 Installation
+## Required Libraries
 
 ```bash
 pip install torch numpy matplotlib nltk wikipedia beautifulsoup4 tqdm
